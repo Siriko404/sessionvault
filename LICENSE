@@ -1,0 +1,9 @@
+SessionVault project license: NOT YET SELECTED BY THE OPERATOR.
+
+No license is granted for operator-authored SessionVault additions until the operator
+chooses and publishes a project license. The recommended default in the ship
+runbook is MIT, but this file deliberately does not make that choice.
+
+Third-party and upstream code retains its original license. In particular,
+code derived from daniel-farina/ai-session-manager is covered by the MIT notice
+in THIRD_PARTY_LICENSES/UPSTREAM_AI_SESSION_MANAGER_MIT.txt.

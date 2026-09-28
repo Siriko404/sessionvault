@@ -1,0 +1,34 @@
+{
+  "name": "sessionvault",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SessionVault: local-only viewer, search, and resume UI for AI coding CLI conversation history.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "keywords": [
+    "ai-coding",
+    "cli",
+    "conversations",
+    "transcripts",
+    "viewer",
+    "local-first"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/smoke-test.mjs",
+    "verify:release": "node scripts/verify-release.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
